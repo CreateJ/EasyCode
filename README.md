@@ -1,1 +1,1 @@
-# EasyCode
+# easy-code
