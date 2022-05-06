@@ -7,7 +7,7 @@ const listToTree = (list) => {
   for (i = 0; i < list.length; i++) {
     map[list[i].id] = list[i]
   }
-  for (let i = 0; i < list.length; i += 1) {
+  for (let i = 0; i < list.length; i++) {
     node = list[i]
     // 注意这里判断第一级的pid是什么
     if (node.pid !== 0) {
@@ -21,3 +21,4 @@ const listToTree = (list) => {
   }
   return tree
 }
+export default listToTree
